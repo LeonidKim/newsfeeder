@@ -1,7 +1,7 @@
 package main
 
 import (
-	gin "newsfeeder/httpd/routes"
+	gin "github.com/LeonidKim/newsfeeder/diploma/api/httpd/routes"
 )
 
 func main() {

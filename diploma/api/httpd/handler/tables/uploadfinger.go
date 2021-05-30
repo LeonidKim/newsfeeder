@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	model_finger "github.com/LeonidKim/newsfeeder/diploma/api/httpd/models/finger"
 	"log"
 	"mime/multipart"
-	model_finger "newsfeeder/httpd/models/finger"
 	"strconv"
 	"strings"
 

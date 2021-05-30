@@ -3,7 +3,7 @@ package tables
 import (
 	"encoding/json"
 	"fmt"
-	model_menu "newsfeeder/httpd/models/menu"
+	model_menu "github.com/LeonidKim/newsfeeder/diploma/api/httpd/models/menu"
 
 	"github.com/gin-gonic/gin"
 )

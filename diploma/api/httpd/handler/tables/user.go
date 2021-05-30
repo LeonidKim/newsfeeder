@@ -2,7 +2,7 @@ package tables
 
 import (
 	"fmt"
-	model_student "newsfeeder/httpd/models/student"
+	model_student "github.com/LeonidKim/newsfeeder/diploma/api/httpd/models/student"
 
 	"github.com/gin-gonic/gin"
 	_ "github.com/lib/pq"

@@ -1,7 +1,7 @@
 package routes
 
 import (
-	handle_user "newsfeeder/httpd/handler/tables"
+	handle_user "github.com/LeonidKim/newsfeeder/diploma/api/httpd/handler/tables"
 
 	"github.com/gin-gonic/gin"
 )
@@ -38,5 +38,5 @@ func (c Routes) StartGin() {
 		api.GET("/GetAllEventsForMaster", handle_user.GetAllEventsForMaster)
 		api.GET("/GetAllEventsForStudent", handle_user.GetAllEventsForStudent)
 	}
-	r.Run("0.0.0.0:6000")
+	r.Run()
 }

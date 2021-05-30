@@ -2,14 +2,14 @@ package tables
 
 import (
 	"fmt"
-	model_course "newsfeeder/httpd/models/course"
-	model_faculty "newsfeeder/httpd/models/faculty"
-	model_groupe "newsfeeder/httpd/models/group"
-	model_language "newsfeeder/httpd/models/language"
-	model_lection "newsfeeder/httpd/models/lection"
-	model_school "newsfeeder/httpd/models/school"
-	model_specialty "newsfeeder/httpd/models/specialty"
-	model_usertype "newsfeeder/httpd/models/usertype"
+	model_course "github.com/LeonidKim/newsfeeder/diploma/api/httpd/models/course"
+	model_faculty "github.com/LeonidKim/newsfeeder/diploma/api/httpd/models/faculty"
+	model_groupe "github.com/LeonidKim/newsfeeder/diploma/api/httpd/models/group"
+	model_language "github.com/LeonidKim/newsfeeder/diploma/api/httpd/models/language"
+	model_lection "github.com/LeonidKim/newsfeeder/diploma/api/httpd/models/lection"
+	model_school "github.com/LeonidKim/newsfeeder/diploma/api/httpd/models/school"
+	model_specialty "github.com/LeonidKim/newsfeeder/diploma/api/httpd/models/specialty"
+	model_usertype "github.com/LeonidKim/newsfeeder/diploma/api/httpd/models/usertype"
 
 	"github.com/gin-gonic/gin"
 )

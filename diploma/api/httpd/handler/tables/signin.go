@@ -2,7 +2,7 @@ package tables
 
 import (
 	"fmt"
-	model_user "newsfeeder/httpd/models/signin"
+	model_user "github.com/LeonidKim/newsfeeder/diploma/api/httpd/models/signin"
 	"time"
 
 	"github.com/gin-gonic/gin"

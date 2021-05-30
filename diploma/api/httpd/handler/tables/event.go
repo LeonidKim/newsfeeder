@@ -2,7 +2,7 @@ package tables
 
 import (
 	"fmt"
-	model_event "newsfeeder/httpd/models/event"
+	model_event "github.com/LeonidKim/newsfeeder/diploma/api/httpd/models/event"
 	"strconv"
 	"time"
 

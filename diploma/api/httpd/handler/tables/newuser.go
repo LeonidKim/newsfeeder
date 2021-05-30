@@ -3,8 +3,8 @@ package tables
 import (
 	"database/sql"
 	"fmt"
-	"newsfeeder/config"
-	model_user "newsfeeder/httpd/models/user"
+	"github.com/LeonidKim/newsfeeder/diploma/api/config"
+	model_user "github.com/LeonidKim/newsfeeder/diploma/api/httpd/models/user"
 	"time"
 
 	"github.com/gin-gonic/gin"
